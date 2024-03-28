@@ -1,0 +1,37 @@
+/* Chat.css */
+.chat-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.chat-header {
+  font-size: 24px;
+  color: #333;
+}
+
+.chat-input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 75%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-button:hover {
+  background-color: #4098d7;
+}
+
+.chat-messages {
+  margin-top: 20px;
+  text-align: left;
+}

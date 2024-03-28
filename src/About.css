@@ -1,0 +1,24 @@
+/* About.css */
+.about-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.about-header {
+  font-size: 24px;
+  color: #333;
+}
+
+.about-text {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #666;
+}
+
+.about-img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}

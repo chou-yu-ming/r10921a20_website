@@ -1,0 +1,25 @@
+nav {
+  background-color: #f0f0f0; /* 淺灰色背景 */
+  padding: 10px 0;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* 導航項目間的間隙 */
+}
+
+nav ul li a {
+  color: #333; /* 深色文字，以便於淺色背景上閱讀 */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #fff; /* 鼠標懸停時的文字顏色 */
+  background-color: #61dafb; /* 鼠標懸停時的背景色 */
+}
